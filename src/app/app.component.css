@@ -1,0 +1,23 @@
+header
+{
+  height: 15vh;
+/* background-color: aqua; */
+z-index: 999;
+}
+.home{
+  height: 100vh;
+
+}
+.about{
+  height: 100vh;
+
+}
+.services{
+  height: 100vh;
+}
+.skills{
+  height: 100vh;
+}
+.portfolio{
+  height: 100vh;
+}
