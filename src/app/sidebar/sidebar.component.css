@@ -1,0 +1,27 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur; /* or any color you want */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  .nav-links {
+    list-style: none; /* removes bullets */
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* space between items */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white; /* adjust as needed */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
