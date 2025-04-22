@@ -1,4 +1,6 @@
-<app-header (open)="onOpenSideBar()" ></app-header>
+@if(openNavBar){
+  <app-header (open)="onOpenSideBar()" ></app-header>
+}
 @if(openSidebar){
   <app-sidebar (close)="onCloseSideBar()"></app-sidebar>
 }

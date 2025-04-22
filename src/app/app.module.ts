@@ -12,9 +12,9 @@ import { ContactComponent } from "./contact/contact.component";
 import { SidebarComponent } from "./sidebar/sidebar.component";
 
 @NgModule({
-    declarations:[AppComponent,HeaderComponent,HomeComponent,AboutComponent,ServicesComponent,SkillsComponent,PortfolioComponent,ContactComponent],
+    declarations:[AppComponent,HeaderComponent,HomeComponent,AboutComponent,ServicesComponent,SkillsComponent,PortfolioComponent,ContactComponent, SidebarComponent],
     bootstrap:[AppComponent],
-    imports: [BrowserModule, AppRoutingModule, SidebarComponent],
+    imports: [BrowserModule, AppRoutingModule],
 })
 
 export class AppModule{}

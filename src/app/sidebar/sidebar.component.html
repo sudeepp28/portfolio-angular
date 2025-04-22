@@ -2,12 +2,12 @@
     <nav>
       <ul class="nav-links">
         <li (click)="onCloseSideBar()"><i class="fa-solid fa-xmark"></i></li>
-        <li><a routerLink="/home" >Home</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/services">Services</a></li>
-        <li><a routerLink="/portfolio">Portfolio</a></li>
-        <li><a routerLink="/skills">Skills</a></li>
-        <li><a routerLink="/contact">Contact</a></li>
+        <li><a routerLink="/home"  routerLinkActive="active" (click)="onCloseSideBar()">Home</a></li>
+        <li><a routerLink="/about" (click)="onCloseSideBar()">About</a></li>
+        <li><a routerLink="/services" (click)="onCloseSideBar()">Services</a></li>
+        <li><a routerLink="/portfolio" (click)="onCloseSideBar()">Portfolio</a></li>
+        <li><a routerLink="/skills" (click)="onCloseSideBar()">Skills</a></li>
+        <li><a routerLink="/contact" (click)="onCloseSideBar()">Contact</a></li>
       </ul>
     </nav>
   </div>

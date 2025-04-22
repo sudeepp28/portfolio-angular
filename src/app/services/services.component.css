@@ -1,14 +1,17 @@
-
-.services{
-    background-color: #191f36;
-   
-    margin-top: 0;
+.services {
+   height: 100vh;
+   background-color: #191f36;
+   margin-top: 0;
+   padding-top: 70px; /* adjust based on your header height */
 }
-.services h2{
-    margin-bottom: 5rem;
-    font-size: 4.5rem;
-    text-align: center;
- }
+
+.services h2 {
+   margin-top: 0;
+   margin-bottom: 5rem;
+   font-size: 4.5rem;
+   text-align: center;
+}
+
  .heading span{
     color: #59B2F4;
  }
