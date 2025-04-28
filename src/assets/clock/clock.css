@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.clock{
+   
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* background-color: bisque; */
+   
+}
+.date{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 80px;
+    padding: 10px;
+}
+#date,#day{
+    background-color: black;
+    color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+}
+
+.point{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 4;
+    
+}
+.clock .hour{
+    position: absolute;
+   font-weight: bold;
+    font-size: 30px;
+}
+.hour1{
+   
+    top: 33px;
+    right: 131px;
+}
+.hour2{
+top:117px;
+right: 051px;
+}
+.hour3{
+    
+    right: 12px;
+}
+.hour12{
+    top: 0;
+
+}
+.hour9{
+  
+    left:12px;
+}
+.hour6{
+    bottom:0
+}
+.hour4{
+    bottom: 107px;
+    right: 50px;
+}
+.hour5{
+    bottom: 32px;
+    right: 129px;
+}
+.hour8{
+    bottom: 107px;
+    left: 46px;
+}
+.hour7{
+    bottom: 32px;
+    left: 116px;
+}
+.hour10{
+    top: 117px;
+    left: 33px;
+}
+.hour11{
+    top: 33px;
+    left: 107px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 84px;
+  
+}
+.name::after{
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(6);
+}
+@keyframes typing {
+    0%{
+        left: 0;
+    }
+    50%{
+       left: 100%;
+    }
+    100%{
+        left:0
+    }
+}
+#hour-hand, #minute-hand, #second-hand{
+
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    transform-origin: bottom;
+
+}
+#hour-hand{
+    width: 3%;
+    height: 28%;
+    top: 22%;
+    z-index: 1;
+}
+#minute-hand{
+    width: 2%;
+    height: 33%;
+    top: 17%;
+    z-index: 2;
+    background-color: rgb(66, 209, 209);
+}
+#second-hand{
+    width: 1%;
+    height: 38%;
+    top: 12%;
+    z-index: 3;
+    background-color: brown;
+  
+}
