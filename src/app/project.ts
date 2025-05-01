@@ -1,32 +1,32 @@
 export const  projects = [
     {
-      title: 'project-1',
-      link: 'https://sudeepp28.github.io/My-Portfolio/',
+      title: 'Task-Management',
+      link: "https://task-management-eight-amber.vercel.app/",
       image: 'img1.jpeg'
     },
     {
-      title: 'project-2',
-      link: "https://github.com/sudeepp28",
+      title: 'Crypto-Checker',
+      link: "https://crypto-checker-ecru.vercel.app/coin-list",
       image: 'img2.jpeg'
     },
     {
       title: 'project-3',
-      link: 'https://your-todo-app-link.com',
+      link: '#',
       image: 'img3.jpeg'
     },
     
       {  title: 'project-4',
-        link: 'https://sudeepp28.github.io/My-Portfolio/',
+        link: '#',
         image: 'img4.jpeg'
       },
       {
         title: 'Project-5',
-        link: "https://github.com/sudeepp28",
+        link: "#",
         image: 'img5.jpeg'
       },
       {
         title: 'Project-6',
-        link: 'https://your-todo-app-link.com',
+        link: '#',
         image: 'img6.jpg'
       }
   ];
