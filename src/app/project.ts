@@ -10,8 +10,8 @@ export const  projects = [
       image: 'img2.jpeg'
     },
     {
-      title: 'project-3',
-      link: '#',
+      title: 'Investment-Calculator',
+      link: 'https://investment-calculator-mocha-omega.vercel.app/',
       image: 'img3.jpeg'
     },
     
