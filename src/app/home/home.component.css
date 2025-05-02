@@ -190,3 +190,10 @@ span{
         font-size:1.4rem ;
     }
   }
+  @media(max-width:1150px){
+    .home{
+      overflow-y:hidden;
+    }
+    
+  
+  }

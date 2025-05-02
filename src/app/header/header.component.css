@@ -126,7 +126,7 @@ header {
     }
   
     .navbar ul li a {
-      font-size: 16px; /* Adjust menu item font size for small screens */
+      font-size: 18px; /* Adjust menu item font size for small screens */
     }
   
     .navbar ul {
@@ -137,6 +137,11 @@ header {
     /* Adjust the appearance of the menu when the screen is smaller */
     .navbar ul li {
       margin: 10px 0;
+    }
+  }
+  @media(max-width:1150px){
+    .navbar ul li a {
+      font-size: 15px ;
     }
   }
   
