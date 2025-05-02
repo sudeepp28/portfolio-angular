@@ -96,3 +96,14 @@
 .portfolio-container a{
     color: #ffff
 }
+@media (max-width: 523px){
+    .portfolio-container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .portfolio-layer h4{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
