@@ -3,7 +3,7 @@
     margin: auto;
     padding: 2rem;
     color: #fff;
-    background: #262B40;
+    background-color: #191f36;
     height: 100vh;
   }
   
@@ -28,6 +28,11 @@
     gap: 1.5rem;
   }
   
+  @media (max-width: 476px) {
+    .form-row {
+      flex-direction: column;
+    }
+  }
   .input-box {
     flex: 1;
     padding: 1rem;
@@ -48,5 +53,6 @@
   
   .textarea-box {
     min-height: 150px;
+    min-width: auto;
     resize: none;
   }
