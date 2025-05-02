@@ -1,5 +1,5 @@
 .portfolio{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #191f36;
     margin-top: 0;
     padding-top: 70px;
@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .portfolio-container .portfolio-box{
     position: relative;
