@@ -1,9 +1,9 @@
-.navbar{
+/* .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #191f36;
-    /* height: 15vh; */
+    /* height: 15vh; 
     box-shadow: 3px 3px 5px var(#999);
     width: 100%;
 }
@@ -41,4 +41,102 @@ padding-left: 5px;
     .onMobile{
         display: none;
     }
-}
+   
+} */
+ /* Header styles */
+header {
+    height: 15vh;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px; /* Prevent content from touching the edges */
+    box-sizing: border-box; /* So padding doesn’t affect width */
+    background-color: #191f36; /* Add a background color to your header */
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; /* Add some space on the sides */
+    box-sizing: border-box;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  ul li a {
+    color: white;
+    display: inline-block;
+    padding: 6px;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hamburger Menu */
+  .menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Media Query for screens below 946px */
+  @media (max-width: 946px) {
+    .menu {
+      display: block;
+    }
+  
+    .onMobile {
+      display: none;
+    }
+  
+    .navbar {
+      padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .logo a {
+      font-size: 28px; /* Adjust logo size for small screens */
+    }
+  
+    .navbar ul li a {
+      font-size: 16px; /* Adjust menu item font size for small screens */
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    /* Adjust the appearance of the menu when the screen is smaller */
+    .navbar ul li {
+      margin: 10px 0;
+    }
+  }
+  
