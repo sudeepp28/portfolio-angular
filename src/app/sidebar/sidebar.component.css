@@ -4,8 +4,8 @@
     right: 0;
     width: 40vh;
     height: 100vh;
-    background-color: rgba(255,255,255,0.2);
-    backdrop-filter: blur; /* or any color you want */
+    background-color: rgba(255,255,255,0.9);
+     /* or any color you want */
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
@@ -17,10 +17,12 @@
     flex-direction: column;
     gap: 1.5rem; /* space between items */
   }
-  
+  .nav-links li{
+    color: #000;
+  }
   .nav-links li a {
     text-decoration: none;
-    color: white; /* adjust as needed */
+    color: #000; /* adjust as needed */
     font-size: 1.2rem;
     transition: color 0.3s ease;
   }
