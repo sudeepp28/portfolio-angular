@@ -5,16 +5,15 @@ export const  projects = [
       image: 'img1.jpeg'
     },
     {
-      title: 'Crypto-Checker',
-      link: "https://crypto-checker-ecru.vercel.app/coin-list",
+      title: 'Finance-Calculator',
+      link: 'https://investment-calculator-mocha-omega.vercel.app/',
       image: 'img2.jpeg'
     },
     {
-      title: 'Finance-Calculator',
-      link: 'https://investment-calculator-mocha-omega.vercel.app/',
+      title: 'project-3',
+      link: "#",
       image: 'img3.jpeg'
     },
-    
       {  title: 'project-4',
         link: '#',
         image: 'img4.jpeg'
