@@ -14,8 +14,8 @@ export const  projects = [
       link: "https://crypto-information.vercel.app/coin-list",
       image: 'img3.jpeg'
     },
-      {  title: 'project-4',
-        link: '#',
+      {  title: 'E-Commerce app',
+        link: 'https://ecommerce-app-98lo.vercel.app/home',
         image: 'img4.jpeg'
       },
       {
