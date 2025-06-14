@@ -19,8 +19,8 @@ export const  projects = [
         image: 'img4.jpeg'
       },
       {
-        title: 'Project-5',
-        link: "#",
+        title: 'FoodLab',
+        link: "https://food-lab-angular.vercel.app/",
         image: 'img5.jpeg'
       },
       {
